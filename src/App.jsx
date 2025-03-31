@@ -1,18 +1,11 @@
-import ChatSection from "./Components/ChatSection"
-
-
-
-
-
+import Chat from "./components/Chat"; // ✅ Chat.js ইমপোর্ট করা হয়েছে
 
 function App() {
   return (
-    <section className="bg-[url('bg.svg')] bg-no-repeat bg-cover w-full 2xl:w-[1440px] px-5  flex flex-col justify-center ">
-      <>
-       <ChatSection />
-      </>
-    </section>
-  )
+    <div className="h-screen flex justify-center items-center bg-gray-100">
+      <Chat />
+    </div>
+  );
 }
 
-export default App
+export default App;
